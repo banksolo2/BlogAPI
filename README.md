@@ -1,0 +1,2 @@
+# BlogAPI
+Blogging Platform API
