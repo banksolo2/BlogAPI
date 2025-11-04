@@ -33,7 +33,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
@@ -61,7 +61,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
@@ -80,7 +80,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
@@ -109,7 +109,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
@@ -128,7 +128,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
@@ -151,7 +151,7 @@ public class PostServiceImpl implements PostService {
             return ResponseMessage.builder()
                     .type("error")
                     .message(ex.getMessage())
-                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
     }
