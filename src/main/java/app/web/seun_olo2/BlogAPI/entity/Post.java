@@ -12,12 +12,12 @@ import java.time.Instant;
 import java.util.List;
 
 @Entity
-@Table(name = "blogs")
+@Table(name = "Posts")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
-public class Blog {
+public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
